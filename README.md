@@ -31,3 +31,11 @@ CSS global e CSS por contexto.
 SSR e SSG.  
 Testes e ambiente local com todos os apps, parcels utilities e bibliotecas com as versões alinhadas.  
 Passar parâmetros para o tipo de MFE utility.  
+
+
+#### Frameworks
+
+Há diversos frameworks feitos sob o single-spa.  
+https://nx.dev/  
+Nx é um feito para microserviços usando Angular em um monorepo, ele facilita muitas tarefas.  
+
