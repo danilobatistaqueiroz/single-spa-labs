@@ -36,8 +36,21 @@ import {
   constructLayoutEngine,
 } from "single-spa-layout";
 
+//const myErrorParcel = singleSpaReact({...});
+//const settingsLoader = singleSpaReact({...});
+
 const routes = constructRoutes(
-  document.querySelector("#single-spa-layout")
+  document.querySelector("#single-spa-layout"), {
+    // errors: {
+    //   navError: myErrorParcel
+    //   // alternatively:
+    //   // navError: "<h1>Oops! The navbar isn't working right now</h1>"
+    // },
+    // loaders: {
+    //   loadingTopNav: `<nav class="placeholder"></nav>`,
+    //   settings: settingsLoader
+    // }
+  }
 );
 const applications = constructApplications({
   routes,
