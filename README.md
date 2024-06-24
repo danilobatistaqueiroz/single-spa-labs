@@ -35,7 +35,7 @@ Passar parâmetros para o tipo de MFE utility.
 
 #### Frameworks
 
-Há diversos frameworks feitos sob o single-spa.  
+Há diversos frameworks feitos sob o single-spa e outros com uma ideia similar.  
 https://nx.dev/  
-Nx é um feito para microserviços usando Angular em um monorepo, ele facilita muitas tarefas.  
+Nx é um framework um feito que facilita projetos usando diversos frontends, podendo usar por exemplo, projetos Angular em um monorepo.  
 
